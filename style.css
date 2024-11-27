@@ -5,6 +5,8 @@ body {
     font-family: 'Roboto';
 }
 
+/* TOP START */
+
 .top {
     background-color: #1F2937;
     padding: 0 200px;
@@ -78,3 +80,43 @@ button {
     margin-top: 10px;
 }
 
+/* TOP END*/
+
+/* MID START */
+
+.mid {
+    padding: 0 200px;
+}
+
+.info-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+}
+
+.mid img{
+    width: 225px;
+    height: 225px;
+    border-radius: 20px;
+}
+
+.img-txt {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.txt {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 225px;
+    text-align: center;
+}
