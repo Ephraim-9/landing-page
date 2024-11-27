@@ -5,11 +5,15 @@ body {
     font-family: 'Roboto';
 }
 
+.content {
+    margin: 0px 100px;
+}
+
 /* TOP START */
 
 .top {
     background-color: #1F2937;
-    padding: 0 200px;
+    padding: 0 100px;
 }
 
 .header {
@@ -85,7 +89,7 @@ button {
 /* MID START */
 
 .mid {
-    padding: 0 200px;
+    padding: 0 100px;
 }
 
 .info-header {
@@ -98,8 +102,9 @@ button {
     padding: 20px;
 }
 
-.content {
+.img-info {
     display: flex;
+    justify-content: space-between;
 }
 
 .mid img{
@@ -110,6 +115,7 @@ button {
 
 .img-txt {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     margin: 20px;
 }
@@ -120,3 +126,64 @@ button {
     max-width: 225px;
     text-align: center;
 }
+
+/* MID END */
+
+/* BOTTOM START */
+
+
+.bottom {
+    background-color: #E5E7EB;
+    padding: 100px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    margin: 0px 100px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+.byline {
+    font-size: 24px;
+    font-weight: bolder;
+    align-self: last baseline;
+}
+
+.ctablock {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign-up {
+    margin: 30px 10vh;
+    padding: 30px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+}
+
+.sign-up button {
+    color: #E5E7EB;
+    border: 2px solid #E5E7EB; 
+}
+
+.cta {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* BOTTOM END */
